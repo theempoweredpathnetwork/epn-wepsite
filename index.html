@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowered Path Network</title>
+    <!-- Tailwind CSS via CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to enhance the aesthetic */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+        }
+        .text-epn-blue {
+            color: #0A417C;
+        }
+        .bg-epn-blue {
+            background-color: #0A417C;
+        }
+        .bg-epn-yellow {
+            background-color: #FFD700;
+        }
+        .border-epn-blue {
+            border-color: #0A417C;
+        }
+        .scroll-mt-24 {
+            scroll-margin-top: 6rem;
+        }
+        
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section (Sticky Navbar) -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center space-x-2">
+                <!-- EPN Logo, now using your uploaded image -->
+                <img src="__file_url__:WhatsApp Image 2025-08-27 at 10.20.51_465bb88e.jpg" alt="EPN Logo" class="h-10 w-10 md:h-12 md:w-12 rounded-full">
+                <span class="text-epn-blue text-lg md:text-xl font-bold">Empowered Path Network</span>
+            </a>
+            
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-epn-blue focus:outline-none">
+                    <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Desktop Navigation Links -->
+            <div class="hidden md:flex space-x-6 lg:space-x-10">
+                <a href="#home" class="text-gray-600 hover:text-epn-blue font-semibold transition duration-300">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-epn-blue font-semibold transition duration-300">About Us</a>
+                <a href="#programs" class="text-gray-600 hover:text-epn-blue font-semibold transition duration-300">Programs</a>
+                <a href="#contact" class="text-gray-600 hover:text-epn-blue font-semibold transition duration-300">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu (hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pb-4 shadow-inner transition-all duration-300 ease-in-out">
+            <a href="#home" class="block py-2 text-gray-600 hover:text-epn-blue font-semibold">Home</a>
+            <a href="#about" class="block py-2 text-gray-600 hover:text-epn-blue font-semibold">About Us</a>
+            <a href="#programs" class="block py-2 text-gray-600 hover:text-epn-blue font-semibold">Programs</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-epn-blue font-semibold">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section id="home" class="bg-epn-blue text-white py-16 md:py-24 text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">Empowering Youth, Inspiring Dreams, Transforming Futures</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+                    The Empowered Path Network is committed to providing young individuals with the tools, resources, and support needed to thrive and succeed in their personal and professional lives.
+                </p>
+                <a href="#about" class="inline-block bg-epn-yellow text-epn-blue font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="container mx-auto px-4 py-16 md:py-24 scroll-mt-24">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-epn-blue text-center mb-12">About Us</h2>
+                <div class="grid md:grid-cols-2 gap-8 md:gap-12">
+                    <!-- Mission and Vision Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-epn-yellow">
+                        <h3 class="text-2xl font-semibold text-epn-blue mb-4">Our Mission & Vision</h3>
+                        <p class="mb-4">
+                            <span class="font-bold">Mission:</span> To empower young people by preparing them for a brighter future, helping them recognize and nurture their God-given talents, and fostering a sense of self-worth and motivation.
+                        </p>
+                        <p>
+                            <span class="font-bold">Vision:</span> A world where every young person is equipped with the confidence, skills, and inspiration to pursue their dreams and contribute positively to society, living in harmony with their God-given purpose.
+                        </p>
+                    </div>
+
+                    <!-- Core Values Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-epn-blue">
+                        <h3 class="text-2xl font-semibold text-epn-blue mb-4">Our Core Values</h3>
+                        <ul class="space-y-3 text-lg">
+                            <li><span class="font-bold">Empowerment:</span> We believe in the potential of every young individual.</li>
+                            <li><span class="font-bold">Integrity:</span> We commit to being honest, transparent, and ethical.</li>
+                            <li><span class="font-bold">Unity:</span> We promote collaboration, togetherness, and mutual support.</li>
+                            <li><span class="font-bold">Faith:</span> We hold a deep belief in the power of God-given gifts.</li>
+                            <li><span class="font-bold">Inspiration:</span> We aim to motivate and uplift young people.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="bg-epn-blue text-white py-16 md:py-24 scroll-mt-24">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Programs & Activities</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Mentorship Programs Card -->
+                    <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-epn-blue mb-2">Mentorship Programs</h3>
+                        <p>Pairing youth with mentors to guide them in their personal, educational, and professional journeys.</p>
+                    </div>
+                    <!-- Skill Development Workshops Card -->
+                    <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-epn-blue mb-2">Skill Development Workshops</h3>
+                        <p>Training in areas such as leadership, communication, entrepreneurship, and financial literacy.</p>
+                    </div>
+                    <!-- Youth Empowerment Camps Card -->
+                    <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-epn-blue mb-2">Youth Empowerment Camps</h3>
+                        <p>Organizing camps focused on personal development, self-discovery, and team-building activities.</p>
+                    </div>
+                    <!-- Community Outreach Card -->
+                    <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-epn-blue mb-2">Community Outreach</h3>
+                        <p>Encouraging young people to participate in community service projects and volunteering.</p>
+                    </div>
+                    <!-- Conferences and Seminars Card -->
+                    <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-epn-blue mb-2">Conferences and Seminars</h3>
+                        <p>Hosting events where youth can learn from inspirational speakers and leaders.</p>
+                    </div>
+                    <!-- Online Resource Hub Card -->
+                    <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-epn-blue mb-2">Online Resource Hub</h3>
+                        <p>Creating a digital platform with educational materials, videos, and virtual mentorship sessions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container mx-auto px-4 py-16 md:py-24 scroll-mt-24">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-epn-blue mb-8">Contact Us</h2>
+                <p class="text-lg mb-6">We'd love to hear from you. Reach out to us via email or social media.</p>
+                <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-epn-yellow">
+                    <p class="text-2xl font-bold mb-4">
+                        <a href="mailto:theempowerepathnetwork@gmail.com" class="text-epn-blue hover:underline">theempowerepathnetwork@gmail.com</a>
+                    </p>
+                    <!-- Social Media Links -->
+                    <div class="flex justify-center space-x-6 mt-6">
+                        <!-- Facebook Icon with SVG -->
+                        <a href="https://www.facebook.com/profile.php?id=100076758425763" target="_blank" rel="noopener noreferrer" class="text-epn-blue hover:text-gray-600 transition duration-300">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Empowered Path Network. All Rights Reserved.</p>
+            <p class="text-sm text-gray-400 mt-2">Founders: Alpha K. Weah, Omega K. Weah</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Close mobile menu when a link is clicked
+            const navLinks = mobileMenu.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

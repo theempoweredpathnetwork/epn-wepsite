@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Empowered Path Network</title>
+    <title>Programs - Empowered Path Network</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -20,28 +20,38 @@
 <body class="text-gray-800">
 
 <!-- NAVBAR -->
-<header class="bg-white shadow-lg">
+<header class="bg-white shadow-md sticky top-0 z-50">
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
         
         <div class="flex items-center space-x-2">
             <img src="https://raw.githubusercontent.com/theempoweredpathnetwork/epn-wepsite/main/EPN.jpeg"
                  class="h-10 w-10 rounded-full">
-            <span class="text-epn-blue font-bold">EPN</span>
+            <span class="text-epn-blue font-bold text-lg">EPN</span>
         </div>
 
-        <div class="space-x-6">
-            <a href="index.html" class="hover:text-epn-blue">Home</a>
-            <a href="about.html" class="text-epn-blue font-semibold">About</a>
-            <a href="programs.html" class="hover:text-epn-blue">Programs</a>
-            <a href="get-involved.html" class="hover:text-epn-blue">Get Involved</a>
-            <a href="contact.html" class="hover:text-epn-blue">Contact</a>
+        <div class="space-x-6 hidden md:block">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programs.html" class="text-epn-blue font-semibold">Programs</a>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="contact.html">Contact</a>
         </div>
     </nav>
 </header>
-<section class="px-4 pb-16 max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
 
-    <!-- Card -->
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-epn-blue">
+<!-- HERO -->
+<section class="bg-gradient-to-r from-[#0A417C] to-[#062c55] text-white py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold">Our Programs</h1>
+    <p class="mt-4 text-lg max-w-2xl mx-auto">
+        Empowering youth through mentorship, skills development, leadership, and real-world opportunities.
+    </p>
+</section>
+
+<!-- PROGRAMS GRID -->
+<section class="px-4 py-16 max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+
+    <!-- Cards -->
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-epn-blue">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Mentorship Programs</h2>
         <ul class="list-disc ml-5 text-sm mb-3">
             <li>One-on-One Mentoring</li>
@@ -50,7 +60,7 @@
         <p class="text-gray-600">Gain a trusted advisor to guide your journey.</p>
     </div>
 
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-yellow-400">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-yellow-400">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Skill Development Workshops</h2>
         <ul class="list-disc ml-5 text-sm mb-3">
             <li>Leadership & Communication</li>
@@ -60,7 +70,7 @@
         <p class="text-gray-600">Build practical skills for real-world success.</p>
     </div>
 
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-epn-blue">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-epn-blue">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Youth Empowerment Camps</h2>
         <ul class="list-disc ml-5 text-sm mb-3">
             <li>Confidence & Leadership</li>
@@ -70,7 +80,7 @@
         <p class="text-gray-600">Discover your inner leader.</p>
     </div>
 
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-yellow-400">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-yellow-400">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Community Outreach</h2>
         <ul class="list-disc ml-5 text-sm mb-3">
             <li>Service Projects</li>
@@ -80,65 +90,69 @@
         <p class="text-gray-600">Make a difference in your community.</p>
     </div>
 
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-epn-blue">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-epn-blue">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Conferences & Seminars</h2>
         <p class="text-gray-600">Learn from leaders and expand your knowledge.</p>
     </div>
 
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-yellow-400">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-yellow-400">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Leadership & Advocacy</h2>
         <p class="text-gray-600">Lead change and make your voice heard.</p>
     </div>
 
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-epn-blue">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-epn-blue">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Online Resource Hub</h2>
         <p class="text-gray-600">Access learning anytime, anywhere.</p>
     </div>
 
-    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition duration-300 border-l-4 border-yellow-400">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition border-l-4 border-yellow-400">
         <h2 class="text-xl font-bold text-epn-blue mb-3">Networking Events</h2>
         <p class="text-gray-600">Connect and grow with others.</p>
     </div>
 
 </section>
-<footer class="bg-gray-900 text-gray-300 pt-12 pb-6 mt-10">
+
+<!-- CTA -->
+<section class="bg-epn-blue text-white py-16 text-center">
+    <h2 class="text-3xl font-bold mb-4">Ready to Get Involved?</h2>
+    <a href="get-involved.html"
+       class="bg-epn-yellow text-epn-blue px-6 py-3 rounded-full font-bold shadow hover:scale-105 transition">
+       Join a Program
+    </a>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 pt-12 pb-6">
     <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-8">
 
-        <!-- About -->
         <div>
             <h3 class="text-white font-bold mb-3">Empowered Path Network</h3>
             <p class="text-sm">
-                Empowering youth, inspiring dreams, and transforming futures through leadership,
-                mentorship, and opportunity.
+                Empowering youth, inspiring dreams, and transforming futures.
             </p>
         </div>
 
-        <!-- Quick Links -->
         <div>
             <h3 class="text-white font-bold mb-3">Quick Links</h3>
             <ul class="space-y-2 text-sm">
-                <li><a href="index.html" class="hover:text-white">Home</a></li>
-                <li><a href="about.html" class="hover:text-white">About</a></li>
-                <li><a href="programs.html" class="hover:text-white">Programs</a></li>
-                <li><a href="get-involved.html" class="hover:text-white">Get Involved</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
 
-        <!-- Contact -->
         <div>
             <h3 class="text-white font-bold mb-3">Contact</h3>
-            <p class="text-sm">Email: theempoweredpathnetwork@gmail.com</p>
-            <p class="text-sm">Location: Monrovia, Liberia</p>
+            <p class="text-sm">theempoweredpathnetwork@gmail.com</p>
+            <p class="text-sm">Monrovia, Liberia</p>
         </div>
 
-        <!-- Social -->
         <div>
-            <h3 class="text-white font-bold mb-3">Follow Us</h3>
-            <div class="flex space-x-4 text-lg">
-                <a href="https://www.facebook.com/profile.php?id=100076758425763" class="hover:text-white">🌐</a>
-                <a href="https://www.facebook.com/profile.php?id=100076758425763" class="hover:text-white">📘</a>
-                <a href="https://www.facebook.com/profile.php?id=100076758425763" class="hover:text-white">🐦</a>
-                <a href="https://www.facebook.com/profile.php?id=100076758425763" class="hover:text-white">▶️</a>
+            <h3 class="text-white font-bold mb-3">Follow</h3>
+            <div class="flex space-x-4">
+                <span>🌐</span>
+                <span>📘</span>
+                <span>🐦</span>
             </div>
         </div>
 
@@ -148,3 +162,6 @@
         © 2025 Empowered Path Network. All rights reserved.
     </div>
 </footer>
+
+</body>
+</html>

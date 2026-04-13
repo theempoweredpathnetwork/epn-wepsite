@@ -20,15 +20,15 @@
 <body class="text-gray-800">
 
 <!-- NAVBAR -->
-<header class="bg-white shadow-lg">
+<header class="bg-white shadow-md sticky top-0 z-50">
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
         <div class="flex items-center space-x-2">
             <img src="https://raw.githubusercontent.com/theempoweredpathnetwork/epn-wepsite/main/EPN.jpeg"
                  class="h-10 w-10 rounded-full">
-            <span class="text-epn-blue font-bold">EPN</span>
+            <span class="text-epn-blue font-bold text-lg">EPN</span>
         </div>
 
-        <div class="space-x-6">
+        <div class="space-x-6 hidden md:block">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="programs.html">Programs</a>
@@ -39,8 +39,8 @@
 </header>
 
 <!-- HERO -->
-<section class="bg-epn-blue text-white py-16 text-center">
-    <h1 class="text-4xl font-extrabold">Contact Us</h1>
+<section class="bg-gradient-to-r from-[#0A417C] to-[#062c55] text-white py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold">Contact Us</h1>
     <p class="mt-4 text-lg">We’d love to hear from you</p>
 </section>
 
@@ -51,48 +51,42 @@
     <div>
         <h2 class="text-2xl font-bold text-epn-blue mb-4">Get in Touch</h2>
 
-        <p class="mb-6">
+        <p class="mb-6 text-gray-600">
             Whether you have questions, want to partner, or get involved,
             feel free to reach out to us.
         </p>
 
-        <div class="space-y-4 text-sm">
+        <div class="space-y-4 text-sm text-gray-700">
             <p><strong>Email:</strong> theempoweredpathnetwork@gmail.com</p>
-            <p><strong>Phone (WhatsApp):</strong> +231 777 487 660</p>
-            <p><strong>Phone (Direct):</strong> +231 880 351 373</p>
+            <p><strong>WhatsApp:</strong> +231 777 487 660</p>
+            <p><strong>Direct Call:</strong> +231 880 351 373</p>
             <p><strong>Location:</strong> Sinkor, Monrovia, Liberia</p>
         </div>
 
         <!-- SOCIAL -->
         <div class="mt-6 flex space-x-4 text-xl">
-            <a href="#" class="hover:text-epn-blue">🌐</a>
-            <a href="#" class="hover:text-epn-blue">📘</a>
-            <a href="#" class="hover:text-epn-blue">🐦</a>
-            <a href="#" class="hover:text-epn-blue">▶️</a>
+            <a href="#" class="hover:text-epn-blue transition">🌐</a>
+            <a href="#" class="hover:text-epn-blue transition">📘</a>
+            <a href="#" class="hover:text-epn-blue transition">🐦</a>
+            <a href="#" class="hover:text-epn-blue transition">▶️</a>
         </div>
     </div>
 
     <!-- CONTACT FORM -->
-    <div class="bg-white p-8 rounded-xl shadow">
+    <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
         <h2 class="text-2xl font-bold text-epn-blue mb-4">Send a Message</h2>
 
-        <form>
-            <div class="mb-4">
-                <label class="block text-sm mb-1">Name</label>
-                <input type="text" class="w-full border p-2 rounded">
-            </div>
+        <form class="space-y-4">
+            <input type="text" placeholder="Your Name"
+                class="w-full border p-3 rounded focus:outline-none focus:ring-2 focus:ring-epn-blue">
 
-            <div class="mb-4">
-                <label class="block text-sm mb-1">Email</label>
-                <input type="email" class="w-full border p-2 rounded">
-            </div>
+            <input type="email" placeholder="Your Email"
+                class="w-full border p-3 rounded focus:outline-none focus:ring-2 focus:ring-epn-blue">
 
-            <div class="mb-4">
-                <label class="block text-sm mb-1">Message</label>
-                <textarea class="w-full border p-2 rounded" rows="4"></textarea>
-            </div>
+            <textarea rows="4" placeholder="Your Message"
+                class="w-full border p-3 rounded focus:outline-none focus:ring-2 focus:ring-epn-blue"></textarea>
 
-            <button class="bg-epn-blue text-white px-6 py-2 rounded-full">
+            <button class="w-full bg-epn-blue text-white py-3 rounded-full font-semibold hover:scale-105 transition">
                 Send Message
             </button>
         </form>
@@ -100,7 +94,7 @@
 
 </section>
 
-<!-- MAP (OPTIONAL SIMPLE BLOCK) -->
+<!-- MAP -->
 <section class="px-4 pb-16 max-w-6xl mx-auto">
     <div class="bg-gray-300 h-64 rounded flex items-center justify-center">
         <p class="text-gray-600">Map Location (Optional)</p>
@@ -113,15 +107,17 @@
 
         <div>
             <h3 class="text-white font-bold mb-3">Empowered Path Network</h3>
-            <p class="text-sm">Empowering youth and transforming futures.</p>
+            <p class="text-sm">
+                Empowering youth, inspiring dreams, and transforming futures.
+            </p>
         </div>
 
         <div>
             <h3 class="text-white font-bold mb-3">Quick Links</h3>
             <ul class="space-y-2 text-sm">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="programs.html">Programs</a></li>
-                <li><a href="get-involved.html">Get Involved</a></li>
             </ul>
         </div>
 
@@ -143,7 +139,7 @@
     </div>
 
     <div class="text-center text-sm text-gray-500 mt-8 border-t border-gray-700 pt-4">
-        © 2025 Empowered Path Network
+        © 2025 Empowered Path Network. All rights reserved.
     </div>
 </footer>
 

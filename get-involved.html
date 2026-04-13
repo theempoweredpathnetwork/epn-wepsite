@@ -20,15 +20,15 @@
 <body class="text-gray-800">
 
 <!-- NAVBAR -->
-<header class="bg-white shadow-lg">
+<header class="bg-white shadow-md sticky top-0 z-50">
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
         <div class="flex items-center space-x-2">
             <img src="https://raw.githubusercontent.com/theempoweredpathnetwork/epn-wepsite/main/EPN.jpeg"
                  class="h-10 w-10 rounded-full">
-            <span class="text-epn-blue font-bold">EPN</span>
+            <span class="text-epn-blue font-bold text-lg">EPN</span>
         </div>
 
-        <div class="space-x-6">
+        <div class="space-x-6 hidden md:block">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="programs.html">Programs</a>
@@ -39,85 +39,75 @@
 </header>
 
 <!-- HERO -->
-<section class="bg-epn-blue text-white py-16 text-center">
-    <h1 class="text-4xl font-extrabold">Get Involved</h1>
+<section class="bg-gradient-to-r from-[#0A417C] to-[#062c55] text-white py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold">Get Involved</h1>
     <p class="mt-4 text-lg max-w-2xl mx-auto">
         Your support, time, and partnership can transform lives and empower the next generation.
     </p>
 </section>
 
-<!-- INVOLVEMENT OPTIONS -->
+<!-- OPTIONS -->
 <section class="py-16 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
 
-    <!-- Donate -->
-    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition border-t-4 border-yellow-400">
+    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1 border-t-4 border-yellow-400">
         <h2 class="text-2xl font-bold text-epn-blue mb-3">Donate</h2>
-        <p class="mb-4 text-sm">
-            Your generous contribution fuels our mission and directly impacts young lives.
-            Every donation helps provide mentorship, programs, and opportunities for youth.
+        <p class="mb-4 text-gray-600">
+            Your contribution directly impacts youth by supporting mentorship, programs, and opportunities.
         </p>
-        <a href="#" class="bg-epn-yellow text-epn-blue px-5 py-2 rounded-full font-bold">
+        <a href="#" class="bg-epn-yellow text-epn-blue px-5 py-2 rounded-full font-bold shadow hover:scale-105 transition">
             Donate Now
         </a>
     </div>
 
-    <!-- Volunteer -->
-    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition border-t-4 border-epn-blue">
+    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1 border-t-4 border-epn-blue">
         <h2 class="text-2xl font-bold text-epn-blue mb-3">Volunteer</h2>
-        <p class="mb-4 text-sm">
-            Use your time and skills to support our programs and outreach initiatives.
-            Your involvement makes a real difference.
+        <p class="mb-4 text-gray-600">
+            Use your skills and time to support programs, events, and community outreach.
         </p>
-        <a href="#" class="bg-epn-blue text-white px-5 py-2 rounded-full">
+        <a href="#" class="bg-epn-blue text-white px-5 py-2 rounded-full shadow hover:scale-105 transition">
             Apply to Volunteer
         </a>
     </div>
 
-    <!-- Mentor -->
-    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition border-t-4 border-yellow-400">
+    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1 border-t-4 border-yellow-400">
         <h2 class="text-2xl font-bold text-epn-blue mb-3">Become a Mentor</h2>
-        <p class="mb-4 text-sm">
-            Share your knowledge and guide young people toward success.
-            Help shape the future through mentorship.
+        <p class="mb-4 text-gray-600">
+            Guide young people and help shape their future through mentorship.
         </p>
-        <a href="#" class="bg-epn-yellow text-epn-blue px-5 py-2 rounded-full font-bold">
+        <a href="#" class="bg-epn-yellow text-epn-blue px-5 py-2 rounded-full font-bold shadow hover:scale-105 transition">
             Become a Mentor
         </a>
     </div>
 
-    <!-- Partnerships -->
-    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition border-t-4 border-epn-blue">
+    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1 border-t-4 border-epn-blue">
         <h2 class="text-2xl font-bold text-epn-blue mb-3">Partnerships</h2>
-        <p class="mb-4 text-sm">
-            Collaborate with us to expand opportunities and impact.
-            Together, we can empower more young people.
+        <p class="mb-4 text-gray-600">
+            Partner with us to expand impact and create more opportunities for youth.
         </p>
-        <a href="#" class="bg-epn-blue text-white px-5 py-2 rounded-full">
+        <a href="#" class="bg-epn-blue text-white px-5 py-2 rounded-full shadow hover:scale-105 transition">
             Partner With Us
         </a>
     </div>
 
-    <!-- Careers -->
-    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition border-t-4 border-yellow-400 md:col-span-2">
+    <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1 border-t-4 border-yellow-400 md:col-span-2 text-center">
         <h2 class="text-2xl font-bold text-epn-blue mb-3">Careers</h2>
-        <p class="mb-4 text-sm">
-            Join our growing team and make a meaningful impact.
-            Be part of a mission-driven organization committed to youth empowerment.
+        <p class="mb-4 text-gray-600">
+            Join our team and contribute to a mission-driven organization empowering youth.
         </p>
-        <a href="#" class="bg-epn-yellow text-epn-blue px-5 py-2 rounded-full font-bold">
+        <a href="#" class="bg-epn-yellow text-epn-blue px-6 py-2 rounded-full font-bold shadow hover:scale-105 transition">
             View Open Positions
         </a>
     </div>
 
 </section>
 
-<!-- STRONG CTA -->
+<!-- CTA -->
 <section class="bg-epn-yellow text-epn-blue py-16 text-center">
     <h2 class="text-3xl font-bold mb-4">Together, We Can Build the Future</h2>
-    <p class="mb-6">Your involvement today shapes tomorrow’s leaders.</p>
+    <p class="mb-6 text-gray-700">Your involvement today shapes tomorrow’s leaders.</p>
 
     <a href="contact.html"
-       class="bg-epn-blue text-white px-6 py-3 rounded-full">
+       class="bg-epn-blue text-white px-6 py-3 rounded-full shadow hover:scale-105 transition">
        Contact Us
     </a>
 </section>
@@ -128,15 +118,17 @@
 
         <div>
             <h3 class="text-white font-bold mb-3">Empowered Path Network</h3>
-            <p class="text-sm">Empowering youth and transforming futures.</p>
+            <p class="text-sm">
+                Empowering youth, inspiring dreams, and transforming futures.
+            </p>
         </div>
 
         <div>
             <h3 class="text-white font-bold mb-3">Quick Links</h3>
             <ul class="space-y-2 text-sm">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="programs.html">Programs</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
 
@@ -158,7 +150,7 @@
     </div>
 
     <div class="text-center text-sm text-gray-500 mt-8 border-t border-gray-700 pt-4">
-        © 2025 Empowered Path Network
+        © 2025 Empowered Path Network. All rights reserved.
     </div>
 </footer>
 

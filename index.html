@@ -20,16 +20,16 @@
 <body class="text-gray-800">
 
 <!-- NAVBAR -->
-<header class="bg-white shadow-lg">
+<header class="bg-white shadow-md sticky top-0 z-50">
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
         
         <div class="flex items-center space-x-2">
             <img src="https://raw.githubusercontent.com/theempoweredpathnetwork/epn-wepsite/main/EPN.jpeg"
                  class="h-10 w-10 rounded-full">
-            <span class="text-epn-blue font-bold">EPN</span>
+            <span class="text-epn-blue font-bold text-lg">EPN</span>
         </div>
 
-        <div class="space-x-6">
+        <div class="space-x-6 hidden md:block">
             <a href="index.html" class="font-semibold text-epn-blue">Home</a>
             <a href="about.html" class="hover:text-epn-blue">About</a>
             <a href="programs.html" class="hover:text-epn-blue">Programs</a>
@@ -40,41 +40,41 @@
 </header>
 
 <!-- HERO -->
-<section class="bg-epn-blue text-white py-20 text-center">
-    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
-        Empowering Youth, Inspiring Dreams, Transforming Futures.
+<section class="bg-gradient-to-r from-[#0A417C] to-[#062c55] text-white py-24 text-center">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+        Empowering Youth,<br> Inspiring Dreams,<br> Transforming Futures
     </h1>
 
     <p class="max-w-2xl mx-auto text-lg mb-8">
-        Empowered Path Network (EPN) is dedicated to helping young people
-        unlock their potential and achieve their purpose.
+        Empowered Path Network (EPN) equips young people with the skills,
+        confidence, and opportunities to succeed and lead.
     </p>
 
     <div class="space-x-4">
         <a href="programs.html"
-           class="bg-epn-yellow text-epn-blue px-6 py-3 rounded-full font-bold">
+           class="bg-epn-yellow text-epn-blue px-6 py-3 rounded-full font-bold shadow hover:scale-105 transition">
            Discover Programs
         </a>
 
         <a href="get-involved.html"
-           class="border border-white px-6 py-3 rounded-full">
+           class="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-epn-blue transition">
            Get Involved
         </a>
     </div>
 </section>
 
-<!-- QUICK ABOUT PREVIEW -->
+<!-- ABOUT PREVIEW -->
 <section class="py-16 px-4 text-center">
     <h2 class="text-3xl font-bold text-epn-blue mb-6">Who We Are</h2>
 
-    <p class="max-w-3xl mx-auto mb-6">
+    <p class="max-w-3xl mx-auto mb-6 text-gray-600">
         Empowered Path Network is a youth-focused organization committed to building
-        confidence, leadership, and purpose in young individuals through mentorship,
-        training, and community engagement.
+        leadership, confidence, and purpose in young individuals through mentorship,
+        skills development, and community engagement.
     </p>
 
     <a href="about.html"
-       class="text-epn-blue font-bold underline">
+       class="text-epn-blue font-bold underline hover:opacity-80">
        Learn More →
     </a>
 </section>
@@ -85,46 +85,87 @@
         What We Do
     </h2>
 
-    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        <div class="bg-white p-6 rounded shadow">
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1">
             <h3 class="font-bold text-epn-blue mb-2">Mentorship</h3>
-            <p>Guiding youth through personal and career growth.</p>
+            <p class="text-gray-600">Guiding youth through personal and career growth.</p>
         </div>
 
-        <div class="bg-white p-6 rounded shadow">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1">
             <h3 class="font-bold text-epn-blue mb-2">Workshops</h3>
-            <p>Building skills in leadership and entrepreneurship.</p>
+            <p class="text-gray-600">Building skills in leadership and entrepreneurship.</p>
         </div>
 
-        <div class="bg-white p-6 rounded shadow">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1">
             <h3 class="font-bold text-epn-blue mb-2">Community Impact</h3>
-            <p>Creating change through outreach and service.</p>
+            <p class="text-gray-600">Creating change through outreach and service.</p>
         </div>
+
     </div>
 
-    <div class="text-center mt-8">
+    <div class="text-center mt-10">
         <a href="programs.html"
-           class="bg-epn-blue text-white px-6 py-3 rounded-full">
+           class="bg-epn-blue text-white px-6 py-3 rounded-full shadow hover:scale-105 transition">
            View All Programs
         </a>
     </div>
 </section>
 
 <!-- CTA -->
-<section class="py-16 text-center">
+<section class="py-20 text-center bg-white">
     <h2 class="text-3xl font-bold text-epn-blue mb-4">
         Join Us in Empowering Youth
     </h2>
 
+    <p class="mb-6 text-gray-600">Be part of a movement shaping the future.</p>
+
     <a href="get-involved.html"
-       class="bg-epn-yellow text-epn-blue px-6 py-3 rounded-full font-bold">
+       class="bg-epn-yellow text-epn-blue px-6 py-3 rounded-full font-bold shadow hover:scale-105 transition">
        Get Started
     </a>
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-gray-800 text-white text-center py-6">
-    <p>&copy; 2025 Empowered Path Network</p>
+<footer class="bg-gray-900 text-gray-300 pt-12 pb-6">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-8">
+
+        <div>
+            <h3 class="text-white font-bold mb-3">Empowered Path Network</h3>
+            <p class="text-sm">
+                Empowering youth, inspiring dreams, and transforming futures.
+            </p>
+        </div>
+
+        <div>
+            <h3 class="text-white font-bold mb-3">Quick Links</h3>
+            <ul class="space-y-2 text-sm">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white font-bold mb-3">Contact</h3>
+            <p class="text-sm">theempoweredpathnetwork@gmail.com</p>
+            <p class="text-sm">Monrovia, Liberia</p>
+        </div>
+
+        <div>
+            <h3 class="text-white font-bold mb-3">Follow</h3>
+            <div class="flex space-x-4">
+                <span>🌐</span>
+                <span>📘</span>
+                <span>🐦</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="text-center text-sm text-gray-500 mt-8 border-t border-gray-700 pt-4">
+        © 2025 Empowered Path Network. All rights reserved.
+    </div>
 </footer>
 
 </body>
